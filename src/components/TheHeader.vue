@@ -35,7 +35,7 @@
             <div class="ml-2">
                 <button class="btn btn-danger" @click="handleOpenModalCartList">
                     <i class="fa fa-shopping-cart"></i>
-                    <p class="badge badge-light ml-2">{{ sumAmountCart }}</p>
+                    <span class="badge badge-light ml-2">{{ sumAmountCart }}</span>
                 </button>
             </div>
         </div>
